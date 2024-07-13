@@ -1,0 +1,98 @@
+/* Start Global Properties  */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+/* End Global Properties  */
+
+.page {
+    display: flex;
+}
+
+/* Start side bar  */
+.side-bar {
+    color: #333;
+    width: fit-content;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px #ccc;
+    height: 100vh;
+}
+
+.side-bar .logo::before {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    bottom: -30px;
+    left: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+}
+
+.side-bar .logo{
+    text-align: center;
+    width: 250px;
+    position: relative;
+    margin-bottom: 60px;
+    letter-spacing: -2px;
+}
+
+.side-bar .logo::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    bottom: -20px;
+    left: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.side-bar nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+.side-bar nav ul li{
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.side-bar nav ul li a{
+    display: block;
+    padding: 15px;
+    color: #333;
+}
+
+.side-bar nav ul li a:visited {
+    background-color: #f7f7f7;
+}
+
+.side-bar nav ul li i{
+    padding-right: 10px;
+}
+
+.page .side-bar .link .active {
+    background-color: #f7f7f7;
+}
+/* End side bar  */
