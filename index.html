@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- framework file  -->
+    <link rel="stylesheet" href="./css/framework.css">
+    <!-- main css file for home page  -->
+    <link rel="stylesheet" href="./css/dashboard.css">
     <!-- normalize css file  -->
     <link rel="stylesheet" href="./css/normalize.css">
     <!-- Font Awesome css file  -->
     <link rel="stylesheet" href="./css/all.min.css">
-    <!-- main css file for home page  -->
-    <link rel="stylesheet" href="./css/dashboard.css">
-    <!-- framework file  -->
-    <link rel="stylesheet" href="./css/framework.css">
     <title>Dashboard</title>
 </head>
 <body>
     <div class="page d-flex">
-        <div class="side-bar">
-            <h1 class="logo">Youssef</h1>
+        <!-- Start Side Bar  -->
+        <div class="side-bar p-relative bg-white p-20">
+            <h1 class="logo txt-c p-relative">Youssef</h1>
             <nav>
                 <ul class="link">
-                    <li class="active"><a href="index.html"><i class="fas fa-file"></i>Dashboard</a></li>
-                    <li><a href="setting.html"><i class="fas fa-file"></i>settings</a></li>
-                    <li><a href="profile.html"><i class="fas fa-user"></i>profile</a></li>
-                    <li><a href="projects.html"><i class="fas fa-share"></i>projects</a></li>
-                    <li><a href="courses.html"><i class="fas fa-file"></i>courses</a></li>
-                    <li><a href="friends.html"><i class="fas fa-file"></i>friends</a></li>
-                    <li><a href="files.html"><i class="fas fa-file"></i>files</a></li>
-                    <li><a href="plans.html"><i class="fas fa-credit-card"></i>plans</a></li>
+                    <li class="active rad-6 tt-capital"><a href="index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span class="hide-mobile">Dashboard</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="setting.html"><i class="fa-solid fa-gear fa-fw"></i><span class="hide-mobile">settings</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="profile.html"><i class="fa-regular fa-user fa-fw"></i><span class="hide-mobile">profile</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span class="hide-mobile">projects</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span class="hide-mobile">courses</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span class="hide-mobile">friends</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span class="hide-mobile">files</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span class="hide-mobile">plans</span></a></li>
                 </ul>
             </nav>
         </div>
-        <div class="content"></div>
+        <!-- End Side Bar  -->
+        <div class="content flex-1">
+            <!-- Start Page head  -->
+            <div class="head d-flex p-20 s-between aling-c bg-white p-relative">
+                <div class="search p-relative">
+                    <i class="fas fa-search p-absolute v-center"></i>
+                    <input type="search" placeholder="type a keyword" class="p-10 rad-8">
+                </div>
+                <div class="profile flex-between">
+                    <i class="fa-regular fa-bell fa-lg mr-20 p-relative"><span class="p-absolute rad-half"></span></i>
+                    <a href="profile.html"><img src="./images/user-profile.jpeg" alt="user profile" class="rad-half"></a>
+                </div>
+            </div>
+            <!-- End Page head  -->
+            <h1 class="content-title">dashboard</h1>
+        </div>
     </div>
 </body>
 </html>

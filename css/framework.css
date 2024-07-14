@@ -2,4 +2,105 @@
 .d-flex {
     display: flex;
 }
+.s-between {
+    justify-content: space-between;
+}
+.aling-c {
+    align-items: center;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* Start box  */
+
+/* Start Color  */
+.bg-white {
+    background-color: white;
+}
+/* End Color  */
+
+/* Start Padding & Margin  */
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+/* End Padding & Margin  */
+
+/* Start Postion  */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.v-center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* End Postion  */
+
+/* Start Font  */
+.txt-c {
+    text-align: center;
+}
+.tt-capital {
+    text-transform: capitalize;
+}
+/* End Font  */
+
+/* Start Border  */
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-8 {
+    border-radius: 8px;
+}
+.rad-half {
+    border-radius: 50%;
+}
+/* End Border  */
+
+/* Start Responsive  */
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    } 
+}
+/* End Responsive  */
+
+/* Start Components  */
+.content-title {
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    font-size: 35px;
+    padding: 20px;
+    margin: 0 0 10px 0;
+}
+.content-title::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    left: 20px;
+    bottom: 5px;
+    background-image: linear-gradient(90deg, black 40%, white 40%);
+}
+/* End Components  */
