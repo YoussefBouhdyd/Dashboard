@@ -1,3 +1,11 @@
+/* Variables  */
+:root {
+    --main-transition : .3s;
+    --text-color: #777;
+    --blue-color: #0075FF;
+}
+/* Variables  */
+
 /* Start box  */
 .d-flex {
     display: flex;
@@ -22,6 +30,11 @@
     justify-content: space-between;
     align-items: center;
 }
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mw-100 {
     max-width: 100%;
 }
@@ -37,6 +50,9 @@
 .bg-eee {
     background-color: #EEEEEE;
 }
+.c-777 {
+    color: #777;
+}
 /* End Color  */
 
 /* Start Padding & Margin  */
@@ -48,6 +64,9 @@
 }
 .p-20 {
     padding: 20px;
+}
+.p-30 {
+    padding: 30px;
 }
 .pt-20 {
     padding-top: 20px;

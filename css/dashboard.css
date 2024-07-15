@@ -31,6 +31,8 @@ ul {
     --main-transition : .3s;
     --text-color: #777;
     --blue-color: #0075FF;
+    --orange-color: #F59E0B;
+    --green-color: #22C55E;
 }
 /* End Variables  */
 
@@ -214,7 +216,7 @@ ul {
 
 .dashboard-content .box .draft textarea {
     resize: none;
-    height: 250px;
+    height: 200px;
 }
 
 .dashboard-content .box .draft textarea::placeholder {
@@ -229,4 +231,145 @@ ul {
     background-color: var(--blue-color);
 }
 /* End Dashboard Content  */
+
+/* Start Targets  */
+.dashboard-content .box .progress {
+    
+}
+
+.dashboard-content .box .progress:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.dashboard-content .box .progress:first-of-type .icon{
+    background-color: #CCE3FF;
+}
+
+.dashboard-content .box .progress:nth-of-type(2) .icon{
+    background-color: #FDECCE;
+}
+
+.dashboard-content .box .progress:last-of-type .icon{
+    background-color: #D3F3DF;
+}
+
+.dashboard-content .box .progress .icon  {
+    font-size: 20px;
+}
+
+.dashboard-content .box .progress:first-of-type .icon i{
+    color: var(--blue-color);
+}
+
+.dashboard-content .box .progress:nth-of-type(2) .icon i{
+    color: var(--orange-color);
+}
+
+.dashboard-content .box .progress:last-of-type .icon i{
+    color: var(--green-color);
+}
+
+
+.dashboard-content .box .progress .info h3{
+    margin: 10px 0;
+}
+
+.dashboard-content .box .progress .info span:first-of-type {
+    color: var(--text-color);
+}
+
+.dashboard-content .box .progress .info .progress-bar {
+    display: block;
+    height: 5px;
+}
+
+.dashboard-content .box .progress .info .prog::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.dashboard-content .box .progress .info .progress-bar::after {
+    content: attr(data-progress);
+    position: absolute;
+    color: #fff;
+    height: 10px;
+    width: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100%;
+    bottom: 15px;
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 10px;
+    z-index: 0;
+    transform: translateX(-50%);
+}
+
+.dashboard-content .box .progress:first-of-type .info .progress-bar::after {
+    background-color: var(--blue-color);
+}
+
+.dashboard-content .box .progress:nth-of-type(2) .info .progress-bar::after {
+    background-color: var(--orange-color);
+}
+
+.dashboard-content .box .progress:last-of-type .info .progress-bar::after {
+    background-color: var(--green-color);
+}
+
+.dashboard-content .box .progress .info .progress-bar::before {
+    content: "";
+    position: absolute;
+    color: #fff;
+    height: 0;
+    width: 0;
+    left: 100%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    z-index: 0;
+    border: 10px solid;
+}
+
+.dashboard-content .box .progress:first-of-type .info .progress-bar::before {
+    border-color: var(--blue-color) transparent transparent transparent;
+}
+
+.dashboard-content .box .progress:nth-of-type(2) .info .progress-bar::before {
+    border-color: var(--orange-color) transparent transparent transparent;
+}
+.dashboard-content .box .progress:last-of-type .info .progress-bar::before {
+    border-color: var(--green-color) transparent transparent transparent;
+}
+
+.dashboard-content .box .progress:first-of-type .info .prog::before {
+    background-color: #CCE3FF;
+}
+
+.dashboard-content .box .progress:nth-of-type(2) .info .prog::before {
+    background-color: #FDECCE;
+}
+
+.dashboard-content .box .progress:last-of-type .info .prog::before {
+    background-color: #D3F3DF;
+}
+
+.dashboard-content .box .progress:first-of-type .info .progress-bar{
+    background-color: var(--blue-color);
+}
+
+.dashboard-content .box .progress:nth-of-type(2) .info .progress-bar{
+    background-color: var(--orange-color);
+}
+
+.dashboard-content .box .progress:last-of-type .info .progress-bar{
+    background-color: var(--green-color);
+}
+/* End Targets  */
 
