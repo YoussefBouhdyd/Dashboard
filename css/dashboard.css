@@ -30,12 +30,13 @@ ul {
 :root {
     --main-transition : .3s;
     --text-color: #777;
+    --blue-color: #0075FF;
 }
 /* End Variables  */
 
 .page {
     background-color: #F1F5F9;
-    height: 100vh
+    min-height: 100vh;
 }
 
 /* Start side bar  */
@@ -112,38 +113,120 @@ ul {
 }
 /* End side bar  */
 
-/* Start Page Head  */
-.head {
-    
-}
-.head .search{
-
-}
-.head .search i{
+/* Start Page Header  */
+.header .search i{
     left: 10px;
     color: var(--text-color);
 }
-.head .search input{
+
+.header .search input{
     border: 1px solid #ccc;
     padding: 10px 20px 10px 30px;
     width: 200px;
+    transition: var(--main-transition);
 }
 
-.head .search input::placeholder {
+@media (min-width:768px) {
+    .header .search input:focus {
+        width: 300px;
+    }
+}
+
+.header .search input::placeholder {
     text-transform: capitalize;
 }
 
-.head .profile{
-
-}
-.head .profile i span{
+.header .profile i span{
     background-color: #F44336;
     width: 10px;
     height: 10px;
     bottom: 5px;
     right: -5px;
 }
-.head img {
+
+.header img {
     width: 50px;
 }
-/* End Page Head  */
+/* End Page he.header  */
+
+/* Start Dashboard Content  */
+
+.dashboard-content .box{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Welcome  */
+
+.dashboard-content .box .head span {
+    color: var(--text-color);
+}
+
+.dashboard-content .box .head .image img {
+    width: 200px;
+}
+
+.dashboard-content .box .head > img {
+    width: 60px;
+    bottom: -30px;
+    border: 5px solid #fff;
+}
+
+.dashboard-content .box .sumrise {
+    margin: 50px 0 10px;
+    border: 2px solid #f5f5f5;
+    border-left: none;
+    border-right: none;
+    padding-top: 0;  
+}
+
+.dashboard-content .box .sumrise h4{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.dashboard-content .box .sumrise span{
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.dashboard-content .box .button .profile-button {
+    background-color: var(--blue-color);
+}
+
+/* Quick Draft  */
+
+.dashboard-content .box p {
+    color: var(--text-color);
+}
+
+.dashboard-content .box .draft input {
+    margin-bottom: 30px;
+}
+
+.dashboard-content .box .draft input::placeholder {
+    transition: var(--main-transition);
+}
+
+.dashboard-content .box .draft input:focus::placeholder {
+    opacity: 0;
+}
+
+.dashboard-content .box .draft textarea {
+    resize: none;
+    height: 250px;
+}
+
+.dashboard-content .box .draft textarea::placeholder {
+    transition: var(--main-transition);
+}
+
+.dashboard-content .box .draft textarea:focus::placeholder {
+    opacity: 0;
+} 
+
+.dashboard-content .box .save-button {
+    background-color: var(--blue-color);
+}
+/* End Dashboard Content  */
+
