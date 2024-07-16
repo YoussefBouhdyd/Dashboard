@@ -391,3 +391,22 @@ ul {
 }
 /* End Stats  */
 
+/* Start latest News  */
+.dashboard-content .box .reports .report {
+    margin-bottom: 25px;
+}
+
+@media (min-width:768px) {
+    .dashboard-content .box .reports .report .report-short img {
+        width: 100px;
+    }
+}
+
+.dashboard-content .box .reports .report .report-short p {
+    font-size: 14px;
+}
+
+.dashboard-content .box .reports .report span {
+    width: 100px;
+}
+/* End latest News  */
