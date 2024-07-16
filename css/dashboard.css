@@ -33,6 +33,7 @@ ul {
     --blue-color: #0075FF;
     --orange-color: #F59E0B;
     --green-color: #22C55E;
+    --red-color: #F44336;
 }
 /* End Variables  */
 
@@ -233,9 +234,6 @@ ul {
 /* End Dashboard Content  */
 
 /* Start Targets  */
-.dashboard-content .box .progress {
-    
-}
 
 .dashboard-content .box .progress:not(:last-of-type) {
     margin-bottom: 10px;
@@ -344,6 +342,7 @@ ul {
 .dashboard-content .box .progress:nth-of-type(2) .info .progress-bar::before {
     border-color: var(--orange-color) transparent transparent transparent;
 }
+
 .dashboard-content .box .progress:last-of-type .info .progress-bar::before {
     border-color: var(--green-color) transparent transparent transparent;
 }
@@ -372,4 +371,23 @@ ul {
     background-color: var(--green-color);
 }
 /* End Targets  */
+
+/* Start Stats  */
+.dashboard-content .box .tickets {
+    flex-wrap: wrap;
+}
+
+.dashboard-content .box .tickets .ticket {
+    flex-basis: calc((100% - 20px) / 2);
+    border: 1px solid #ccc;
+}
+
+.dashboard-content .box .tickets .ticket h2{
+    margin: 10px 0 5px;
+}
+
+.dashboard-content .box .tickets .ticket span{
+    font-size: 14px;
+}
+/* End Stats  */
 
