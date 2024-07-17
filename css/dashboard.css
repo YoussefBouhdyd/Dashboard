@@ -394,7 +394,7 @@ ul {
 }
 
 .dashboard-content .box .reports .report:not(:last-child) {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eee;
 }
 
 @media (min-width:768px) {
@@ -419,7 +419,7 @@ ul {
 }
 
 .dashboard-content .box .tasks .task:not(:last-child) {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eee;
 }
 
 .dashboard-content .box .tasks .task.done {
@@ -443,7 +443,7 @@ ul {
 }
 
 .dashboard-content .box .files .file:not(:last-child) {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eee;
 }
 
 .dashboard-content .box .files .file img {
@@ -488,4 +488,55 @@ ul {
 .dashboard-content .box .pointes .point span.next::after  {
     background-color: #CCE3FF;
 }
+
+.dashboard-content .box .project-image {
+    width: 150px;
+    animation: fly 2s ease-in;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-500px);
+    }
+}
 /* End last projects  */
+
+/* Start reminders  */
+
+.dashboard-content .box .reminder > span {
+    width: 20px;
+    height: 20px;
+}
+
+.dashboard-content .box .reminder > div {
+    padding: 5px 20px;
+}
+
+.dashboard-content .box .reminder .detail::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.dashboard-content .box .reminder:nth-of-type(1) .detail::before{
+    background-color: var(--blue-color);
+}
+
+.dashboard-content .box .reminder:nth-of-type(2) .detail::before{
+    background-color: var(--orange-color);
+}
+.dashboard-content .box .reminder:nth-of-type(3) .detail::before{
+    background-color: var(--green-color);
+}
+
+.dashboard-content .box .reminder:nth-of-type(4) .detail::before{
+    background-color: var(--red-color);
+}
+
+/* End reminders  */
