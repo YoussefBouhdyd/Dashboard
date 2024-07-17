@@ -610,4 +610,11 @@ ul {
 .dashboard-content .box .social.linkedin span:last-of-type {
     background-color: #0077B5;
 }
+
 /* End Social  */
+
+/* Start Projects  */
+.dashboard-content .projects {
+    grid-column: 1 / -1;
+}
+/* ENd Projects  */
