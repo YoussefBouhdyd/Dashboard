@@ -59,6 +59,9 @@
 .c-777 {
     color: #777;
 }
+.black-c {
+    color: #000;
+}
 .blue-c {
     color: var(--blue-color);
 }
@@ -86,6 +89,9 @@
 /* End Color  */
 
 /* Start Padding & Margin & gap  */
+.p-5-10 {
+    padding: 5px 10px;
+}
 .p-10 {
     padding: 10px;
 }
@@ -107,11 +113,26 @@
 .m-15-0 {
     margin: 15px 0;
 }
+.mr-10 {
+    margin-right: 10px;
+}
 .mr-20 {
     margin-right: 20px;
 }
+.mb-5 {
+    margin-bottom: 5px;
+}
 .mb-10 {
     margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
 }
 .ml-20 {
     margin-left: 20px;
@@ -187,6 +208,12 @@
     }
 }
 /* End Responsive  */
+
+/* Start State  */
+.pointer {
+    cursor: pointer;
+}
+/* End State  */
 
 /* Start Components  */
 

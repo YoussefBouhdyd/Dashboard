@@ -199,10 +199,6 @@ ul {
 
 /* Quick Draft  */
 
-.dashboard-content .box p {
-    color: var(--text-color);
-}
-
 .dashboard-content .box .draft input {
     margin-bottom: 30px;
 }
@@ -393,7 +389,12 @@ ul {
 
 /* Start latest News  */
 .dashboard-content .box .reports .report {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    padding: 15px 0;
+}
+
+.dashboard-content .box .reports .report:not(:last-child) {
+    border-bottom: 1px solid #ddd;
 }
 
 @media (min-width:768px) {
@@ -410,3 +411,81 @@ ul {
     width: 100px;
 }
 /* End latest News  */
+
+/* Start latest tasks  */
+
+.dashboard-content .box .tasks .task {
+    padding: 10px 0;
+}
+
+.dashboard-content .box .tasks .task:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-content .box .tasks .task.done {
+    text-decoration: line-through;
+    opacity: .4;
+}
+
+.dashboard-content .box .tasks .task .delete {
+    transition: var(--main-transition);
+}
+
+.dashboard-content .box .tasks .task .delete:hover {
+    color: var(--red-color);
+}
+
+/* End latest tasks  */
+
+/* Start latest files  */
+.dashboard-content .box .files .file {
+    padding: 10px 0;
+}
+
+.dashboard-content .box .files .file:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-content .box .files .file img {
+    width: 40px;
+    max-width: 100%;
+}
+/* End latest files  */
+
+/* Start last projects  */
+.dashboard-content .box .pointes .point span {
+    width: 30px;
+    height: 30px;
+    border: 3px solid var(--blue-color);
+}
+
+.dashboard-content .box .pointes .point:not(:last-child) span::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 25px;
+    background-color: var(--blue-color);
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+
+.dashboard-content .box .pointes .point span::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.dashboard-content .box .pointes .point span.releized::after  {
+    background-color: var(--blue-color);
+}
+
+.dashboard-content .box .pointes .point span.next::after  {
+    background-color: #CCE3FF;
+}
+/* End last projects  */
