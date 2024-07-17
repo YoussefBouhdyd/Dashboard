@@ -540,3 +540,74 @@ ul {
 }
 
 /* End reminders  */
+
+/* Start Post  */
+
+/* There is nothing  */
+
+/* End Post  */
+
+/* Start Social  */
+
+.dashboard-content .box .social {
+    padding: 15px 10px 15px 60px;
+    height: 60px;
+}
+
+.dashboard-content .box .social.twitter {
+    background-color: #D2ECFC;
+}
+
+.dashboard-content .box .social.facebook {
+    background-color: #D1E4FC;
+}
+
+.dashboard-content .box .social.youtube {
+    background-color: #FFCCCC;
+}
+.dashboard-content .box .social.linkedin {
+    background-color: #CCE4F0;
+}
+
+.dashboard-content .box .social span:first-of-type {
+    width: 50px;
+    height: 100%;
+    z-index: 1;
+}
+
+.dashboard-content .box .social.twitter span:first-of-type  {
+    background-color: #1DA1F2;
+}
+
+.dashboard-content .box .social.facebook span:first-of-type  {
+    background-color: #1877F2;
+}
+
+.dashboard-content .box .social.youtube span:first-of-type  {
+    background-color: #FF2D2D;
+}
+
+.dashboard-content .box .social.linkedin span:first-of-type  {
+    background-color: #0077B5;
+}
+
+.dashboard-content .box .social span:last-of-type {
+    right: 10px;
+}
+
+.dashboard-content .box .social.twitter span:last-of-type {
+    background-color: #1DA1F2;
+}
+
+.dashboard-content .box .social.facebook span:last-of-type {
+    background-color: #1877F2;
+}
+
+.dashboard-content .box .social.youtube span:last-of-type {
+    background-color: #FF2D2D;
+}
+
+.dashboard-content .box .social.linkedin span:last-of-type {
+    background-color: #0077B5;
+}
+/* End Social  */

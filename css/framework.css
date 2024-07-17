@@ -50,11 +50,8 @@
 /* Start box  */
 
 /* Start Color  */
-.bg-white {
-    background-color: white;
-}
-.bg-eee {
-    background-color: #EEEEEE;
+.c-white {
+    color: #fff;
 }
 .c-777 {
     color: #777;
@@ -73,6 +70,12 @@
 }
 .red-c {
     color: var(--red-color);
+}
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #EEEEEE;
 }
 .bg-blue {
     background-color: var(--blue-color);
@@ -140,6 +143,21 @@
 .m-15-0 {
     margin: 15px 0;
 }
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
 .mr-10 {
     margin-right: 10px;
 }
@@ -190,6 +208,30 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.top-0 {
+    top: 0;
+}
+.top-100 {
+    top: 100%;
+}
+.right-0 {
+    right: 0;
+}
+.right-100 {
+    right: 100%;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.bottom-100 {
+    bottom: 100%;
+}
+.left-0 {
+    left: 0;
+}
+.left-100 {
+    left: 100%;
+}
 /* End Postion  */
 
 /* Start Font  */
@@ -207,6 +249,15 @@
 }
 .fs-15 {
     font-size: 15px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-19 {
+    font-size: 19px;
 }
 .lh-16 {
     line-height: 1.6;
