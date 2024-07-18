@@ -238,6 +238,12 @@
 .txt-c {
     text-align: center;
 }
+.txt-l {
+    text-align: left;
+}
+.txt-r {
+    text-align: right;
+}
 .tt-capital {
     text-transform: capitalize;
 }
@@ -345,6 +351,10 @@
     font-size: 15px;
     border-radius: 6px;
     text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
 }
 
 /* seperator border  */

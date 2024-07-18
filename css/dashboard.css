@@ -617,4 +617,22 @@ ul {
 .dashboard-content .projects {
     grid-column: 1 / -1;
 }
+
+.dashboard-content .projects table {
+    border-collapse: collapse;
+}
+
+.dashboard-content .projects table td{
+    padding: 15px 10px;
+    border: 1px solid #eee;
+}
+
+.dashboard-content .projects table img {
+    width: 40px;
+    border: 2px solid #fff;
+}
+
+/* .dashboard-content .projects table td img:not(:first-child) {
+    left: -20px;
+} */
 /* ENd Projects  */
