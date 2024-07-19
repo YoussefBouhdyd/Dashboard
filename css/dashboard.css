@@ -116,6 +116,10 @@ ul {
 }
 /* End side bar  */
 
+.page .content {
+    overflow: hidden;
+}
+
 /* Start Page Header  */
 .header .search i{
     left: 10px;
@@ -486,7 +490,7 @@ ul {
 }
 
 .dashboard-content .box .pointes .point span.next::after  {
-    background-color: #CCE3FF;
+    animation: color-change .8s linear infinite alternate;
 }
 
 .dashboard-content .box .project-image {
@@ -500,6 +504,15 @@ ul {
     }
     100% {
         transform: translateY(-500px);
+    }
+}
+
+@keyframes color-change {
+    from {
+        background-color: #fff;
+    }
+    to {
+        background-color: #CCE3FF;
     }
 }
 /* End last projects  */
@@ -556,17 +569,21 @@ ul {
 
 .dashboard-content .box .social.twitter {
     background-color: #D2ECFC;
+    color: #1DA1F2;
 }
 
 .dashboard-content .box .social.facebook {
     background-color: #D1E4FC;
+    color: #1877F2;
 }
 
 .dashboard-content .box .social.youtube {
     background-color: #FFCCCC;
+    color: #FF2D2D;
 }
 .dashboard-content .box .social.linkedin {
     background-color: #CCE4F0;
+    color: #0077B5;
 }
 
 .dashboard-content .box .social span:first-of-type {
@@ -616,10 +633,12 @@ ul {
 /* Start Projects  */
 .dashboard-content .projects {
     grid-column: 1 / -1;
+    overflow-x: auto;
 }
 
 .dashboard-content .projects table {
     border-collapse: collapse;
+    min-width: 1000px;
 }
 
 .dashboard-content .projects table td{
@@ -630,9 +649,15 @@ ul {
 .dashboard-content .projects table img {
     width: 40px;
     border: 2px solid #fff;
+    position: relative;
+    z-index: 0;
 }
 
-/* .dashboard-content .projects table td img:not(:first-child) {
-    left: -20px;
-} */
+.dashboard-content .projects table img:hover {
+    z-index: 1;
+}
+
+.dashboard-content .projects table td img:not(:first-child) {
+    margin-left: -20px;
+}
 /* ENd Projects  */

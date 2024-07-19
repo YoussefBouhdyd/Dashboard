@@ -303,6 +303,9 @@
         text-align: center;
     }
 }
+.responsive-table {
+    overflow-x: auto;
+}
 /* End Responsive  */
 
 /* Start State  */
