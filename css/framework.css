@@ -1,3 +1,14 @@
+/* Start Gloabl value  */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+/* End Gloabl value  */
+
 /* Variables  */
 :root {
     --main-transition : .3s;
@@ -363,5 +374,59 @@
 /* seperator border  */
 .sp-border {
     border-bottom: 1px solid #eee;
+}
+
+/* switch button  */
+.switch-btn {
+    align-self: flex-end;
+}
+.switch-btn input {
+    appearance: none;
+}
+.switch-btn label {
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.switch-btn label::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f00d";
+    font-weight: 900;
+    left: 0;
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.switch-btn label::after {
+    position: absolute;
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    font-weight: 900;
+    width: calc(100%  + 1px);
+    height: calc(100%  + 2px);
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    left: -101%;
+    transition: var(--main-transition);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.switch-btn input:checked + label::after{
+    left: 0;
 }
 /* End Components  */

@@ -666,20 +666,6 @@ ul {
 
 /* Start Site Control  */
 
-.settings-content .site-control input[type="checkbox"] {
-    display: none;
-}
-
-.settings-content .site-control label::before {
-    content: "";
-    position: absolute;
-    width: 65px;
-    height: 25px;
-    border-radius: 10px;
-    border: 1px solid #777;
-    left: -70px;
-    top: 32px;
-}
 /* End Site Control  */
 
 /* End Css for Settings Page  */
