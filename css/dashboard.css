@@ -410,7 +410,7 @@ ul {
 .dashboard-content .box .reports .report .report-short p {
     font-size: 14px;
 }
-
+/home/youssef/Codes/Web/Template-Four/setting.html
 .dashboard-content .box .reports .report span {
     width: 100px;
 }
@@ -665,6 +665,21 @@ ul {
 /* Start Css for Settings Page  */
 
 /* Start Site Control  */
+
+.settings-content .site-control textarea {
+    height: 200px;
+    resize: none;
+}
+
+.settings-content .site-control textarea::placeholder {
+    font-family: monospace;
+    font-size: 1rem;
+    transition: var(--main-transition);
+}
+
+.settings-content .site-control textarea:focus::placeholder {
+    opacity: 0;
+}
 
 /* End Site Control  */
 
