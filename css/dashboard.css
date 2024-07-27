@@ -24,6 +24,15 @@ ul {
     list-style: none;
     padding: 0;
 }
+
+::placeholder {
+    transition: var(--main-transition);
+}
+
+:focus::placeholder {
+    opacity: 0;
+}
+
 /* End Global Properties  */
 
 /* Start Variables  */
@@ -410,7 +419,7 @@ ul {
 .dashboard-content .box .reports .report .report-short p {
     font-size: 14px;
 }
-/home/youssef/Codes/Web/Template-Four/setting.html
+
 .dashboard-content .box .reports .report span {
     width: 100px;
 }
@@ -669,6 +678,7 @@ ul {
 .settings-content .site-control textarea {
     height: 200px;
     resize: none;
+    border: 1px solid #ccc;
 }
 
 .settings-content .site-control textarea::placeholder {
@@ -682,5 +692,17 @@ ul {
 }
 
 /* End Site Control  */
+
+/* Start General Info  */
+
+.general-info form input:not([type = "submit"]) {
+    border: 1px solid #ccc;
+}
+
+.general-info form input[type = "email"] {
+    color: var(--text-color);
+    background-color: #F1F5F9;
+}
+/* End General Info  */
 
 /* End Css for Settings Page  */

@@ -261,6 +261,9 @@
 .fw-normal {
     font-weight: normal;
 }
+.fw-bold {
+    font-weight: bold;
+}
 .fs-14 {
     font-size: 14px;
 }
