@@ -541,5 +541,24 @@
     transform: translate(-50%,-50%);
 }
 
+/* pro radio button  */
+.pro-radio > input[type = "radio"]{
+    display: none;
+}
+.pro-radio > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    transition: .3s;
+}
+.pro-radio > input[type = "radio"]:checked + div {
+    border-color: var(--blue-color);
+    color: var(--blue-color);
+}
+
 /* End Components  */
 

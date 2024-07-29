@@ -745,4 +745,11 @@ ul {
 
 /* End Widgets Control  */
 
+/* Start Backup Manager  */
+.backup-manager .plan {
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+}
+/* End Backup Manager  */
+
 /* End Css for Settings Page  */
