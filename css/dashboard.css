@@ -673,6 +673,11 @@ ul {
 
 /* Start Css for Settings Page  */
 
+.settings-content > div {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
 /* Start Site Control  */
 
 .settings-content .site-control textarea {
@@ -704,5 +709,39 @@ ul {
     background-color: #F1F5F9;
 }
 /* End General Info  */
+
+/* Start Security Info  */
+
+.security-info > div:nth-of-type(3) input[type="submit"] {
+    color: #000;
+    font-weight: normal;
+}
+
+/* End Security Info  */
+
+/* Start Social info  */
+
+.social-info .social {
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.social-info .social .icon {
+    width: 45px;
+    height: 45px;
+}
+
+.social-info .social input {
+    height: 45px;
+    border: 1px solid #ddd;
+    border-style: none none none solid;
+    cursor: not-allowed;
+}
+
+/* End Social info  */
+
+/* Start Widgets Control  */
+
+/* End Widgets Control  */
 
 /* End Css for Settings Page  */
