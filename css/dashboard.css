@@ -707,6 +707,7 @@ ul {
 .general-info form input[type = "email"] {
     color: var(--text-color);
     background-color: #F1F5F9;
+    cursor: not-allowed;
 }
 /* End General Info  */
 
