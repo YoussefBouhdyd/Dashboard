@@ -43,8 +43,17 @@
 .flex-end {
     justify-content: flex-end;
 }
+.flex-start {
+    justify-content: flex-start;
+}
 .aling-c {
     align-items: center;
+}
+.aling-start {
+    align-items: flex-start;
+}
+.aling-end {
+    align-items: flex-end;
 }
 .flex-1 {
     flex: 1;

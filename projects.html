@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- framework file  -->
+    <link rel="stylesheet" href="./css/framework.css">
+    <!-- main css file for home page  -->
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <!-- normalize css file  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome css file  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="page d-flex">
+        <!-- Start Side Bar  -->
+        <div class="side-bar p-relative bg-white p-20">
+            <h1 class="logo txt-c p-relative">Youssef</h1>
+            <nav>
+                <ul class="link">
+                    <li class="rad-6 tt-capital"><a href="index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span class="hide-mobile">Dashboard</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="setting.html"><i class="fa-solid fa-gear fa-fw"></i><span class="hide-mobile">settings</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="profile.html"><i class="fa-regular fa-user fa-fw"></i><span class="hide-mobile">profile</span></a></li>
+                    <li class="active rad-6 tt-capital"><a href="projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span class="hide-mobile">projects</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span class="hide-mobile">courses</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span class="hide-mobile">friends</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span class="hide-mobile">files</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span class="hide-mobile">plans</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End Side Bar  -->
+        <div class="content flex-1">
+            <!-- Start Page header  -->
+            <div class="header d-flex p-20 s-between aling-c bg-white p-relative">
+                <div class="search p-relative">
+                    <i class="fas fa-search p-absolute v-center"></i>
+                    <input type="search" placeholder="type a keyword" class="p-10 rad-8">
+                </div>
+                <div class="profile flex-between">
+                    <i class="fa-regular fa-bell fa-lg mr-20 p-relative"><span class="p-absolute rad-half"></span></i>
+                    <a href="profile.html"><img src="./images/user-profile.jpeg" alt="user profile" class="rad-half"></a>
+                </div>
+            </div>
+            <!-- End Page header  -->
+            <h1 class="content-title">Settings</h1>
+            <!-- Start Projects contents -->
+            <div class="projects-content grid-lg p-20">
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">31/07/2024</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Youssef Dashboard</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Youssef Dashboard Project Design And Programming And Hosting</p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team9.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team2.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team12.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">Css</span>
+                        <span class="primary-button bg-eee">Html</span>
+                        <span class="primary-button bg-eee">Desgin</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-red d-block" style="width: 45%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 1000</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">26/07/2024</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Sqlite Injection</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">test Sqlite Injection</p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">Python</span>
+                        <span class="primary-button bg-eee">sqlite3</span>
+                        <span class="primary-button bg-eee">DataBase</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-blue d-block" style="width: 100%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 50</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">10/07/2024</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Youssef Page</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Web Site for Presenting Myself</p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team4.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team6.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">Css</span>
+                        <span class="primary-button bg-eee">Html</span>
+                        <span class="primary-button bg-eee">Desgin</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-green d-block" style="width: 85%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 500</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">20/06/2024</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Kasper</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Traine On Kasper Desing </p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team12.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team5.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team11.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">Css</span>
+                        <span class="primary-button bg-eee">Html</span>
+                        <span class="primary-button bg-eee">Desgin</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-orange d-block" style="width: 50%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 120</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">23/05/2024</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Template One</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Start My first Page</p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team7.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Css</span>
+                        <span class="primary-button bg-eee">Html</span>
+                        <span class="primary-button bg-eee">Desgin</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-blue d-block" style="width: 100%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 20</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">31/06/2023</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Quize app</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Gui app for training on Tkinter </p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">Python</span>
+                        <span class="primary-button bg-eee">Tkinter</span>
+                        <span class="primary-button bg-eee">Desgin</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-red d-block" style="width: 30%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 250</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">01/05/2024</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Student Maneger</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Console app for maneging Students</p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team5.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team10.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">C</span>
+                        <span class="primary-button bg-eee">Console</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-green d-block" style="width: 90%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 0</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">31/07/2022</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Qr Code Reader</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Make Qr Code reader using Python</p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                        <img src="./images/team3.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">Python</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-blue d-block" style="width: 100%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 20</span>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-15 p-relative">
+                    <span class="p-absolute right-0 top-0 p-10 fs-14 c-777">31/01/2024</span>
+                    <span class="d-block fs-17 mb-15 tt-capital">Note Collecter</span>
+                    <p class="m-0 c-777 tt-capital fs-15 mb-25">Collect the note of all Student in class</p>
+                    <div class="team pb-20 sp-border d-flex flex-start">
+                        <img src="./images/user-profile.jpeg" alt="team-image" class="mw-100 circle-50">
+                    </div>
+                    <div class="d-flex flex-end gap-5 pt-10 pb-10 sp-border column-mobile ">
+                        <span class="primary-button bg-eee">Programming</span>
+                        <span class="primary-button bg-eee">Python</span>
+                        <span class="primary-button bg-eee">Web Scraping</span>
+                        <span class="primary-button bg-eee">Selenium</span>
+                    </div>
+                    <div class="progress-price pt-15 pb-15 d-flex aling-c s-between column-mobile gap-10">
+                        <div class="progress-bar rad-8 bg-eee">
+                            <span class="rad-8 bg-red d-block" style="width: 45%;"></span>
+                        </div>
+                        <span class="c-777 fs-14">$ 30</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Projects content  -->
+        </div>
+    </div>
+</body>
