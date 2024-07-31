@@ -27,6 +27,13 @@
 .d-flex {
     display: flex;
 }
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
 .s-between {
     justify-content: space-between;
 }
@@ -41,6 +48,15 @@
 }
 .flex-1 {
     flex: 1;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+.grow-2 {
+    flex-grow: 2;
+}
+.grow-3 {
+    flex-grow: 3;
 }
 .flex-between {
     display: flex;
@@ -61,6 +77,67 @@
 .full-h {
     height: 100%;
 }
+.circle-10 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.circle-20 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.circle-30 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.circle-40 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.circle-50 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.circle-60 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.circle-70 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.circle-80 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.circle-90 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle-110 {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.circle-120 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
 /* Start box  */
 
 /* Start Color  */
@@ -118,8 +195,14 @@
 .p-20 {
     padding: 20px;
 }
+.p-25 {
+    padding: 25px;
+}
 .p-30 {
     padding: 30px;
+}
+.p-35 {
+    padding: 35px;
 }
 .pt-5 {
     padding-top: 5px;
@@ -136,6 +219,21 @@
 .pt-25 {
     padding-top: 25px;
 }
+.pr-5 {
+    padding-right: 5px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.pr-15 {
+    padding-right: 15px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pr-25 {
+    padding-right: 25px;
+}
 .pb-5 {
     padding-bottom: 5px;
 }
@@ -150,6 +248,21 @@
 }
 .pb-25 {
     padding-bottom: 25px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.pl-25 {
+    padding-left: 25px;
 }
 .m-0 {
     margin: 0;
@@ -199,11 +312,29 @@
 .ml-20 {
     margin-left: 20px;
 }
+.gap-5 {
+    gap: 5px;
+}
 .gap-10 {
     gap: 10px;
 }
+.gap-15 {
+    gap: 15px;
+}
 .gap-20 {
     gap: 20px;
+}
+.gap-25 {
+    gap: 25px;
+}
+.gap-30 {
+    gap: 30px;
+}
+.gap-35 {
+    gap: 35px;
+}
+.gap-40 {
+    gap: 40px;
 }
 /* End Padding & Margin  */
 
@@ -266,6 +397,15 @@
 }
 .fw-bold {
     font-weight: bold;
+}
+.fs-11 {
+    font-size: 11px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
 }
 .fs-14 {
     font-size: 14px;

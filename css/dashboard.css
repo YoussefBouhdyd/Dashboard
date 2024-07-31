@@ -54,7 +54,7 @@ ul {
 /* Start side bar  */
 .side-bar {
     color: #333;
-    width: 300px;
+    width: 250px;
     box-shadow: 0 0 10px #ccc;
     z-index: 1;
 }
@@ -746,10 +746,81 @@ ul {
 /* End Widgets Control  */
 
 /* Start Backup Manager  */
+
 .backup-manager .plan {
     padding: 20px 0;
     border-top: 1px solid #eee;
 }
+
 /* End Backup Manager  */
 
 /* End Css for Settings Page  */
+
+/* Start Css for Profile Page  */
+
+.presentation  .avatar{
+    border-right: 1px solid #eee;
+}
+
+@media (max-width:767px) {
+    .presentation  .avatar {
+        border-bottom: 1px solid #eee;
+        border-right: none;
+    }
+}
+
+.presentation  .avatar .progress {
+    width: 150px;
+}
+
+.presentation  .avatar .progress span{
+    height: 10px;
+}
+
+.presentation .details .info {
+    transition: var(--main-transition);
+}
+
+.presentation .details .info:hover {
+    background-color: #f8f8f8;
+}
+
+.presentation .details .info .content {
+    flex-wrap: wrap;
+}
+
+@media (max-width:767px) {
+    .presentation .details {
+        text-align: center;
+    }
+}
+
+.presentation .details .info .content > div {
+    min-width: 250px;
+}
+
+.presentation .details .switch-btn-profile-version {
+    display: flex;
+    justify-content: left;
+}
+
+@media (max-width:767px) {
+    .presentation .details .switch-btn-profile-version {
+        justify-content: center;
+    }
+}
+
+.presentation .details .switch-btn-profile-version > label {
+    width: 100px;
+    height: 25px;
+}
+
+/* Start My skills  */
+
+.profile-content .my-skills > div div{
+    color: #000;
+}
+
+/* End My skills  */
+
+/* End Css for Profile Page  */
