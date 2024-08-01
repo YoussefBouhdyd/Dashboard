@@ -503,12 +503,12 @@
 
 /* Grid Disrbuation  */
 @media (min-width:768px) {
-    .grid-lg {
+    .grid-400 {
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
         gap: 20px;
     }
-    .grid-lg > div {
+    .grid-400 > div {
         margin: 0 !important;
     }
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- framework file  -->
+    <link rel="stylesheet" href="./css/framework.css">
+    <!-- main css file for home page  -->
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <!-- normalize css file  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome css file  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="page d-flex">
+        <!-- Start Side Bar  -->
+        <div class="side-bar p-relative bg-white p-20">
+            <h1 class="logo txt-c p-relative">Youssef</h1>
+            <nav>
+                <ul class="link">
+                    <li class="rad-6 tt-capital"><a href="index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span class="hide-mobile">Dashboard</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="setting.html"><i class="fa-solid fa-gear fa-fw"></i><span class="hide-mobile">settings</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="profile.html"><i class="fa-regular fa-user fa-fw"></i><span class="hide-mobile">profile</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span class="hide-mobile">projects</span></a></li>
+                    <li class="active rad-6 tt-capital"><a href="courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span class="hide-mobile">courses</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span class="hide-mobile">friends</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span class="hide-mobile">files</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span class="hide-mobile">plans</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End Side Bar  -->
+        <div class="content flex-1">
+            <!-- Start Page header  -->
+            <div class="header d-flex p-20 s-between aling-c bg-white p-relative">
+                <div class="search p-relative">
+                    <i class="fas fa-search p-absolute v-center"></i>
+                    <input type="search" placeholder="type a keyword" class="p-10 rad-8">
+                </div>
+                <div class="profile flex-between">
+                    <i class="fa-regular fa-bell fa-lg mr-20 p-relative"><span class="p-absolute rad-half"></span></i>
+                    <a href="profile.html"><img src="./images/user-profile.jpeg" alt="user profile" class="rad-half"></a>
+                </div>
+            </div>
+            <!-- End Page header  -->
+            <h1 class="content-title">Settings</h1>
+            <!-- Start Courses contents -->
+            <div class="course-content grid-lg p-20">
+                <div class="card bg-white rad-6 p-relative">
+                    <img src="./images/team1.jpeg" alt="owner" class="p-absolute circle-110 left-0 top-0 p-20">
+                    <img src="./images/course-01.jpg" alt="course imgae" class="mw-100">
+                    <div class="info p-15 p-relative">
+                        <h3 class="d-block fs-17 mb-10 tt-capital m-0">Syber Scurity</h3>
+                        <p class="m-0 c-777 tt-capital fs-15 pb-25 lh-18 sp-border">Staring Mastring Syber security with this course and become a big engeniring in this field</p>
+                        <span class="p-absolute h-center primary-button bg-blue bottom-0">Course info</span>
+                    </div>
+                    <div class="p-15 pt-5 d-flex s-between c-777 fs-14">
+                        <div class="client">
+                            <i class="fas fa-user pl-5"></i>
+                            <span>192</span>
+                        </div>
+                        <div class="price">
+                            <i class="fas fa-dollar pl-5"></i>
+                            <span>100</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Courses content  -->
+        </div>
+    </div>
+</body>
