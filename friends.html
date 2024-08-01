@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- framework file  -->
+    <link rel="stylesheet" href="./css/framework.css">
+    <!-- main css file for home page  -->
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <!-- normalize css file  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome css file  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="page d-flex">
+        <!-- Start Side Bar  -->
+        <div class="side-bar p-relative bg-white p-20">
+            <h1 class="logo txt-c p-relative">Youssef</h1>
+            <nav>
+                <ul class="link">
+                    <li class="rad-6 tt-capital"><a href="index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span class="hide-mobile">Dashboard</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="setting.html"><i class="fa-solid fa-gear fa-fw"></i><span class="hide-mobile">settings</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="profile.html"><i class="fa-regular fa-user fa-fw"></i><span class="hide-mobile">profile</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span class="hide-mobile">projects</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span class="hide-mobile">courses</span></a></li>
+                    <li class="active rad-6 tt-capital"><a href="friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span class="hide-mobile">friends</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span class="hide-mobile">files</span></a></li>
+                    <li class="rad-6 tt-capital"><a href="plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span class="hide-mobile">plans</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End Side Bar  -->
+        <div class="content flex-1">
+            <!-- Start Page header  -->
+            <div class="header d-flex p-20 s-between aling-c bg-white p-relative">
+                <div class="search p-relative">
+                    <i class="fas fa-search p-absolute v-center"></i>
+                    <input type="search" placeholder="type a keyword" class="p-10 rad-8">
+                </div>
+                <div class="profile flex-between">
+                    <i class="fa-regular fa-bell fa-lg mr-20 p-relative"><span class="p-absolute rad-half"></span></i>
+                    <a href="profile.html"><img src="./images/user-profile.jpeg" alt="user profile" class="rad-half"></a>
+                </div>
+            </div>
+            <!-- End Page header  -->
+            <h1 class="content-title">Friends</h1>
+            <!-- Start Courses contents -->
+            <div class="friends-content grid-300 p-20">
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team10.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Abdchafi Bouhdyd</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">Bac Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">20 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">10 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">2 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 23/01/2009</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team5.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Zakaria Bouhdyd</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">University Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">30 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">10 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">5 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0" style="display: none;">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 19/02/2008</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team7.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Ismali Elwidani</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">Bac Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">40 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">20 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">0 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 23/06/2010</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team6.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Mossab Tajeramt</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">ENS Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">100 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">20 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">10 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 25/06/2017</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team1.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Mohamed Edrisi</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">FST Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">50 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">10 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">23 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0" style="display: none;">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 12/05/2022</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team3.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Ayoub Iboudsn</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">FSSM Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">35 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">200 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">60 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 15/03/2013</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team9.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Rima Bouhdyd</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">Doctore</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">60 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">16 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">100 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 23/09/2004</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team8.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Rime Boudyd</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">EMI Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">19 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">500 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">200 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 25/09/2005</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team11.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Yassmine Errim</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">EMI Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">10 Friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">90 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">1000 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0" style="display: none;">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 10/07/2004</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white rad-6 p-relative p-15">
+                    <div class="contact p-absolute top-0 left-0 p-10 d-flex gap-5">
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-solid fa-phone c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                        <div class="icon p-relative circle-30 bg-eee">
+                            <i class="fa-regular fa-envelope c-777 fs-14 p-absolute position-c"></i>
+                        </div>
+                    </div>
+                    <div class="sp-border pb-20">
+                        <img src="./images/team12.jpeg" alt="friend-image" class="circle-120 mt-20 mb-10 m-auto d-block">
+                        <h4 class="tt-capital m-0 mb-5 txt-c">Aicha Bouhdyd</h4>
+                        <span class="tt-capital c-777 fs-14 txt-c d-block">Ladex Student</span>
+                    </div>
+                    <div class="achivements pt-10 pb-10 sp-border p-relative">
+                        <div class="mb-5">
+                            <i class="fa-regular fa-face-smile fa-fw mr-10"></i>
+                            <span class="fs-14">9 friends</span>
+                        </div>
+                        <div class="mb-5">
+                            <i class="fa-solid fa-code-commit fa-fw mr-10"></i>
+                            <span class="fs-14">50 Projects</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-10"></i>
+                            <span class="fs-14">0 Articles</span>
+                        </div>
+                        <h1 class="p-absolute right-0 v-center orange-c m-0" style="display: none;">VIP</h1>
+                    </div>
+                    <div class="pt-10 pb-10 d-flex s-between aling-c">
+                        <span class="fs-14 c-777 tt-capital">Joined 23/09/2006</span>
+                        <div class="d-flex gap-5">
+                            <input class="primary-button bg-blue fs-12 pointer" type="button" value="profile">
+                            <input class="primary-button bg-red fs-12 pointer" type="button" value="remove">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Courses content  -->
+        </div>
+    </div>
+</body>

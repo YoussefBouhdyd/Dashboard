@@ -867,3 +867,37 @@ ul {
     overflow: hidden;
 }
 /* End Css for Courses  */
+
+/* Start Css for Friends  */
+
+.friends-content .card{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.friends-content .card .contact .icon{
+    transition: var(--main-transition);
+}
+
+.friends-content .card .contact .icon:hover{
+    background-color: var(--blue-color);
+}
+
+.friends-content .card .contact .icon i {
+    transition: var(--main-transition);
+}
+
+.friends-content .card .contact .icon:hover i{
+    color: #fff;
+}
+
+.friends-content .card .achivements h1 {
+    opacity: .5;
+    transition: var(--main-transition);
+}
+
+.friends-content .card .achivements h1:hover {
+    opacity: 1;
+}
+
+/* End Css for Friends  */
