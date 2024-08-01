@@ -512,6 +512,16 @@
         margin: 0 !important;
     }
 }
+@media (min-width:768px) {
+    .grid-300 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 20px;
+    }
+    .grid-300 > div {
+        margin: 0 !important;
+    }
+}
 /* Buttons  */
 .primary-button {
     padding: 5px 10px;

@@ -860,3 +860,10 @@ ul {
 }
 
 /* End Css for Projects Page  */
+
+/* Start Css for Courses  */
+.course-content .card{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+/* End Css for Courses  */
