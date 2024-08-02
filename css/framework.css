@@ -168,7 +168,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%) rotate(230deg);
+    transform: translate(-50%,-50%) rotate(230deg) scale(0);
     font-size: 11px;
     width: 0%;
     height: 0%;
@@ -177,7 +177,6 @@
     background-color: var(--blue-color);
     z-index: 2;
     display: flex;
-    opacity: 0;
     justify-content: center;
     align-items: center;
     transition: .3s;
@@ -185,8 +184,7 @@
 .primary-checkbox > input:checked + div::before {
     width: 100%;
     height: 100%;
-    opacity: 1;
-    transform: translate(-50%,-50%) rotate(0deg);
+    transform: translate(-50%,-50%) rotate(0deg) scale(1);
     border: 1px solid var(--blue-color);
 }
 
