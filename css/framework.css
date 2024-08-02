@@ -124,7 +124,7 @@
     height: calc(100%  + 2px);
     background-color: var(--blue-color);
     border-radius: 10px;
-    left: -101%;
+    left: -105%;
     transition: var(--main-transition);
     display: flex;
     align-items: center;

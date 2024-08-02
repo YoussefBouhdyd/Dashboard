@@ -894,6 +894,7 @@ ul {
 .friends-content .card .achivements h1 {
     opacity: .5;
     transition: var(--main-transition);
+    user-select: none;
 }
 
 .friends-content .card .achivements h1:hover {
