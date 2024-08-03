@@ -912,6 +912,12 @@ ul {
 
 .files-content .files-gallery .file > img {
     width: 65px;
+    transition: var(--main-transition);
+}
+
+.files-content .files-gallery .file:hover > img {
+    width: 65px;
+    transform: rotate(-10deg);
 }
 
 .files-content .files-statistics {
@@ -941,7 +947,7 @@ ul {
 .files-content .files-statistics div:nth-of-type(2) .icon {
     background-color: #D3F3DF;
 }
-
+column
 .files-content .files-statistics div:nth-of-type(3) .icon {
     background-color: #FFCCCC;
 }

@@ -760,6 +760,9 @@
     .column-mobile {
         flex-direction: column;
     }
+    .column-mobile-reverse {
+        flex-direction: column-reverse;
+    }
     .txt-c-mobile {
         text-align: center;
     }
