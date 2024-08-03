@@ -43,6 +43,16 @@
 
 /* Grid Disrbuation  */
 @media (min-width:768px) {
+    .grid-500 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+        gap: 20px;
+    }
+    .grid-500 > div {
+        margin: 0 !important;
+    }
+}
+@media (min-width:768px) {
     .grid-400 {
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
@@ -725,6 +735,18 @@
 }
 .fs-19 {
     font-size: 19px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-35 {
+    font-size: 35px;
 }
 .lh-16 {
     line-height: 1.6;

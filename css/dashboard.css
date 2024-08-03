@@ -976,3 +976,28 @@ ul {
 }
 
 /* End Css For files  */
+
+/* Start Css for Plans  */
+
+.plans-content .plan {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.plans-content .plan .price {
+    border: 3px solid #fff;
+}
+
+.plans-content .plan:nth-child(1) .price {
+    outline: 3px solid var(--green-color);
+}
+
+.plans-content .plan:nth-child(2) .price {
+    outline: 3px solid var(--blue-color);
+}
+
+.plans-content .plan:nth-child(3) .price {
+    outline: 3px solid var(--orange-color);
+}
+
+/* End Css for Plans  */
