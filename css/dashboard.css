@@ -902,3 +902,70 @@ ul {
 }
 
 /* End Css for Friends  */
+
+/* Start Css For files  */
+
+.files-content .files-gallery > div {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.files-content .files-gallery .file > img {
+    width: 65px;
+}
+
+.files-content .files-statistics {
+    align-self: flex-start;
+    width: 250px;
+}
+
+@media (max-width:767px) {
+    .files-content .files-statistics {
+        width: 100%;
+    }
+}
+
+.files-content .files-statistics > div {
+    border: 1px solid #eee;
+}
+
+.files-content .files-statistics .icon {
+    width: 50px;
+    height: 45px;
+}
+
+.files-content .files-statistics div:nth-of-type(1) .icon {
+    background-color: #CCE3FF;
+}
+
+.files-content .files-statistics div:nth-of-type(2) .icon {
+    background-color: #D3F3DF;
+}
+
+.files-content .files-statistics div:nth-of-type(3) .icon {
+    background-color: #FFCCCC;
+}
+
+.files-content .files-statistics div:nth-of-type(4) .icon {
+    background-color: #FDECCE;
+}
+
+.files-content .files-statistics .upload {
+    transition: var(--main-transition);
+}
+
+.files-content .files-statistics .upload:hover {
+    background-color: #025fca;
+}
+
+.files-content .files-statistics .upload:hover i {
+    animation: UpDown .5s linear infinite alternate;
+}
+
+@keyframes UpDown {
+    100% {
+        transform: translateY(-45%);
+    }
+}
+
+/* End Css For files  */
