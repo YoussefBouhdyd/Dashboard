@@ -232,10 +232,9 @@
     border: 2px solid var(--blue-color);
 }
 .primary-radio > input:checked + div::before {
-    width: 60%;
-    height: 60%;
+    width: 10px;
+    height: 10px;
     opacity: 1;
-    transform: translate(-50%,-50%);
 }
 
 /* pro radio button  */
